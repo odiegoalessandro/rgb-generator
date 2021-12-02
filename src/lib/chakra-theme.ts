@@ -7,7 +7,7 @@ const components = {}
 
 const fonts = {
   heading: "sans-serif",
-  body: "sans-serif"
+  body: "'Roboto Mono'"
 }
 
 const colors = {}

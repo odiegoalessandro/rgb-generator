@@ -1,7 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document"
 import { ColorModeScript } from "@chakra-ui/react"
 import React from "react"
-import Fonts from "../components/fonts"
 import theme from "../lib/chakra-theme"
 
 class MyDocument extends Document {
@@ -16,7 +15,6 @@ class MyDocument extends Document {
         <Html lang="pt-BR">
           <Head>
             <link rel="icon" type="image/png" href="image_url" />
-            <Fonts />
           </Head>
           <body>
             <ColorModeScript initialColorMode={theme.config.initialColorMode} />
